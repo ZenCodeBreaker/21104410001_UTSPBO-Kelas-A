@@ -27,7 +27,7 @@ public class MainEnergi extends Kinetic {
         me.setMassaBenda(m);
         System.out.println();
         
-        Double ek = 0.5 / me.getMassaBenda() * me.kecepatanBenda * me.getKecepatanBenda();
+        Double ek = 0.5 * me.getMassaBenda() * me.kecepatanBenda * me.getKecepatanBenda();
         me.setEk(ek);
         
         
